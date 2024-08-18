@@ -1,0 +1,21 @@
+{
+  "name": "demo-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "nodemailer": "^6.9.14",
+    "sweetalert2": "^11.11.1",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.14",
+    "sweetalert2": "^11.11.1",
+    "vite": "^5.4.1"
+  }
+}
