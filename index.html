@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>emo</title>
+    <script type="module" crossorigin src="/demo-test/assets/index-CeoqV9fi.js"></script>
+  </head>
+  <body>
+  <div id="app">
+      <div id="navmenu">
+      </div>
+      <div class="auth-container" id="auth-container">
+          <div class="form-container sign-up-container">
+              <form id="signUpForm" action="#" method="post">
+                  <h1>Create Account</h1>
+                  <input name="username" type="text" placeholder="Username" required />
+                  <input name="password" type="password" placeholder="Password" required />
+                  <button onclick="trySignUp(event)">Sign Up</button>
+              </form>
+          </div>
+          <div class="form-container sign-in-container">
+              <form id="signInForm" action="/public" method="post">
+                  <h1>Sign in</h1>
+                  <input name="username" type="text" placeholder="Username" required />
+                  <input name="password" type="password" placeholder="Password" required />
+                  <button type="submit" id="signin_btn" onclick="trySignIn(event)">Sign In</button>
+              </form>
+          </div>
+          <div class="overlay-container">
+              <div class="overlay">
+                  <div class="overlay-panel overlay-left">
+                      <h1></h1>
+                      <p>Please input your username and password</p>
+                      <button class="ghost" onclick="showSignIn()">Sign In</button>
+                  </div>
+                  <div class="overlay-panel overlay-right">
+                      <h1></h1>
+                      <p>Enter your username and password and request access!</p>
+                      <button class="ghost" onClick="showSignUp()">Sign Up</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="main-container">
+      </div>
+  </div>
+
+  </body>
+</html>
